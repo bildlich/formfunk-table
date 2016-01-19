@@ -1,0 +1,27 @@
+{
+  "name": "formfunk-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Gieselmann",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-middleware": "^0.3.0",
+    "coffee-script": "^1.10.0",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "node-bourbon": "^4.2.3",
+    "node-sass": "^3.4.2",
+    "serve-static": "^1.10.1",
+    "socket.io": "^1.4.4"
+  },
+  "devDependencies": {
+    "gulp-nodemon": "^2.0.6"
+  }
+}
