@@ -57,13 +57,14 @@ gulp.task('serve', ['sass', 'coffee'], function() {
 });
 
 gulp.task('browser-sync', ['serve'], function() {
-	browserSync.init(null, {
-		proxy: "http://localhost:5000",
-        files: ["public/**/*.*"],
-        port: 7000,
-        ghostmode: false,
-        notify: false
-	});
+  browserSync.init(null, {
+    proxy: "http://localhost:5000",
+      files: ["public/**/*.*"],
+      port: 7000,
+      ghostmode: false,
+      notify: false,
+      open: false
+  });
 });
 
 

@@ -9,28 +9,25 @@ serveStatic = require('serve-static')
 app.use(serveStatic('public'))
 
 app.get '/nfc', (req, res) ->
-  arr = req.originalUrl.match(/\?(.*)/)
+  arr = req.originalUrl.match(/\?(.*)/) # Get string behing "?" in the URL
   if arr and arr[1]
     id = arr[1]
-    console.log 'nfc requests card ' + req.originalUrl.match(/\?(.*)/)[1]
+    console.log 'nfc requests chapter ' + id
+    res.send 'you requested chapter ' + id
+    io.emit 'change audiovisual', id
 
-http.listen 5000, ->
-  console.log('listening on *:5000')
+app.get '/reset', (req, res) ->
+  console.log 'projection reset requested'
+  res.send 'you requested a projection reset'
+  io.emit 'reset'
 
 io.on 'connection', (socket) ->
   console.log 'yay, a user connected'
 
-  socket.on 'nfc connect', ->
-    console.log 'nfc connect'
-  socket.on 'nfc disconnect', ->
-    console.log 'nfc disconnect'
   socket.on 'projection connect', ->
     console.log 'projection connect'
   socket.on 'projection disconnect', ->
     console.log 'projection disconnect'
 
-  socket.on 'nfc requests card', (data) ->
-    console.log 'nfc requests card ' + data.id
-    socket.broadcast.emit 'change audiovisual', data
-
-
+http.listen 5000, ->
+  console.log('listening on *:5000')
