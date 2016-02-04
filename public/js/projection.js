@@ -73,147 +73,149 @@ chapterData = {
   },
   '814AACE2C75D04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': '56:20.320'
+    'start': {
+      'start': '55:46.320'
+    }
   },
   '814AACE2C74704': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '0:31.665'
   },
   '814AACE2C71A04': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '7:10.564'
   },
   '814AACE2C76804': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '10:17.406'
   },
   '814AACE2C67A04': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '20:20.466'
   },
   '804009FA3CCD04': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '26:26.867'
   },
   '804AACE2FB8F04': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '32:29.299'
   },
   '804009FA3CEC04': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '40:54.548'
   },
   '814AACE2C76704': {
     'soundID': 'anna-haifisch-onl',
-    'start': ''
+    'start': '44:07.560'
   },
   '814AACE2C67B04': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '0:29.610'
   },
   '814AACE2C71B04': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '1:17.021'
   },
   '814AACE2C72504': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '7:21.292'
   },
   '814AACE2C66404': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '12:11.138'
   },
   '804AACE2C6F504': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '14:41.116'
   },
   '814AACE2C61904': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '18:54.332'
   },
   '814AACE2C62304': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '22:31.183'
   },
   '804AACE2C6F404': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '30:14.651'
   },
   '814AACE2C65A04': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '37:58.497'
   },
   '814AACE2C63804': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '42:20.639'
   },
   '814AACE2C66504': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '44:10.328'
   },
   '814AACE2C66504': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '51:57.090'
   },
   '814AACE2C63904': {
     'soundID': 'frank-berzbach-onl',
-    'start': ''
+    'start': '53:59.098'
   },
   '804AACE2C82804': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '0:29.414'
   },
   '804AACE2C81E04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '3:21.267'
   },
   '804AACE2C73704': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '10:14.137'
   },
   '804AACE2C81F04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '16:27.497'
   },
   '804AACE2C73604': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '18:35.408'
   },
   '804AACE2C82904': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '21:57.413'
   },
   '804AACE2C86004': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '29:49.448'
   },
   '804AACE2C86A04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '34:02.056'
   },
   '804AACE2C86B04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '36:03.491'
   },
   '804AACE2C83E04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '41:30.260'
   },
   '814AACE2C87F04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '45:24.993'
   },
   '814AACE2C87404': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '47:55.803'
   },
   '814AACE2C85004': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '53:36.391'
   },
   '814009FA3C0A04': {
     'soundID': 'lars-mueller-onl',
-    'start': ''
+    'start': '56:51.322'
   }
 };
 
