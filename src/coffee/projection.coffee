@@ -24,37 +24,37 @@ chapterData =
   # 1 Spiekermann (11 Tags)
   '804AACE2C56A04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '0:29.532'
   '804AACE2C56004':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '4:28.398'
   '804AACE2C58C04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '12:47.447'
   '804AACE2C55F04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '24:19.085'
   '804AACE2C56904':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '30:00.661'
   '804AACE2C58B04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '36:01.156'
   '804AACE2C51D04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '37:53.865'
   '804AACE2C52704':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '42:41.191'
   '804AACE2C54904':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '46:02.238'
   '804AACE2C51C04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '52:54.138'
   '814AACE2C75D04':
     'soundID': 'erik-spiekermann-onl'
-    'start': ''
+    'start': '55:46.320'
   # 2 Haifisch (8 Tags)
   # 3 Berzbach (13 Tags)
   # 4 Muxel (9 Tags)
