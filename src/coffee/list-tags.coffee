@@ -2,8 +2,11 @@ socket = io()
 
 socket.on 'change audiovisual', (chapterID) ->
   console.log 'change audiovisual'
-  chapterString += """hello
-  lo
+  chapterString += """
+  '#{chapterID}':
+    'soundID': ''
+    'start': ''
+
   """
   $('textarea').val(chapterString)
 
