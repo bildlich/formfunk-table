@@ -33,46 +33,186 @@ episodeData = {
 chapterData = {
   '804AACE2C56A04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '0:29.532'
   },
   '804AACE2C56004': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '4:28.398'
   },
   '804AACE2C58C04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '12:47.447'
   },
   '804AACE2C55F04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '24:19.085'
   },
   '804AACE2C56904': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '30:00.661'
   },
   '804AACE2C58B04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '36:01.156'
   },
   '804AACE2C51D04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '37:53.865'
   },
   '804AACE2C52704': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '42:41.191'
   },
   '804AACE2C54904': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '46:02.238'
   },
   '804AACE2C51C04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': ''
+    'start': '52:54.138'
   },
   '814AACE2C75D04': {
     'soundID': 'erik-spiekermann-onl',
+    'start': '56:20.320'
+  },
+  '814AACE2C74704': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '814AACE2C71A04': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '814AACE2C76804': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '814AACE2C67A04': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '804009FA3CCD04': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '804AACE2FB8F04': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '804009FA3CEC04': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '814AACE2C76704': {
+    'soundID': 'anna-haifisch-onl',
+    'start': ''
+  },
+  '814AACE2C67B04': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C71B04': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C72504': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C66404': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '804AACE2C6F504': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C61904': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C62304': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '804AACE2C6F404': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C65A04': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C63804': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C66504': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C66504': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '814AACE2C63904': {
+    'soundID': 'frank-berzbach-onl',
+    'start': ''
+  },
+  '804AACE2C82804': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C81E04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C73704': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C81F04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C73604': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C82904': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C86004': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C86A04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C86B04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '804AACE2C83E04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '814AACE2C87F04': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '814AACE2C87404': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '814AACE2C85004': {
+    'soundID': 'lars-mueller-onl',
+    'start': ''
+  },
+  '814009FA3C0A04': {
+    'soundID': 'lars-mueller-onl',
     'start': ''
   }
 };

@@ -54,9 +54,73 @@ chapterData =
     'start': '52:54.138'
   '814AACE2C75D04':
     'soundID': 'erik-spiekermann-onl'
-    'start': '55:46.320'
+    'start': '56:20.320'#'start': '55:46.320'
   # 2 Haifisch (8 Tags)
+  '814AACE2C74704':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '814AACE2C71A04':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '814AACE2C76804':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '814AACE2C67A04':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '804009FA3CCD04':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '804AACE2FB8F04':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '804009FA3CEC04':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
+  '814AACE2C76704':
+    'soundID': 'anna-haifisch-onl'
+    'start': ''
   # 3 Berzbach (13 Tags)
+  '814AACE2C67B04':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C71B04':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C72504':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C66404':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '804AACE2C6F504':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C61904':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C62304':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '804AACE2C6F404':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C65A04':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C63804':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C66504':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C66504':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+  '814AACE2C63904':
+    'soundID': 'frank-berzbach-onl'
+    'start': ''
+
   # 4 Muxel (9 Tags)
   # 5 Nienhaus (11 Tags)
   # 6 Reichenstein (12 Tags)
@@ -64,6 +128,49 @@ chapterData =
   # 8 Birds (10 Tags)
   # 11 Burger/Bauer (12 Tags)
   # 10 Müller (14 Tags)
+  '804AACE2C82804':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C81E04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C73704':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C81F04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C73604':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C82904':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C86004':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C86A04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C86B04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '804AACE2C83E04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '814AACE2C87F04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '814AACE2C87404':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '814AACE2C85004':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+  '814009FA3C0A04':
+    'soundID': 'lars-mueller-onl'
+    'start': ''
+
 
 setupSoundObjects = ->
   soundManager.setup
