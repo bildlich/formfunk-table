@@ -18,7 +18,25 @@ socket.on 'reset', ->
 
 episodeData =
   'erik-spiekermann-onl':
+    color: '#0024ff'
+  'anna-haifisch-onl':
+    color: '#FFEE00'
+  'frank-berzbach-onl':
     color: 'blue'
+  'andreas-muxel-onl':
+    color: '#1EFF01'
+  'andrea-nienhaus-onl':
+    color: '#F1CEC9'
+  'oliver-reichenstein-onl':
+    color: '#dddddd'
+  'julia-kahl-onl':
+    color: '#00ffff'
+  'i-like-birds-onl':
+    color: '#ccff00'
+  'birgit-bauer-daniela-burger-onl':
+    color: '#FF1493'
+  'lars-mueller-onl':
+    color: '#ff0000'
 
 chapterData =
   # 1 Spiekermann (11 Tags)
