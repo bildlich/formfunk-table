@@ -31,17 +31,49 @@ episodeData = {
 };
 
 chapterData = {
-  '804009FA3CAD04': {
+  '804AACE2C56A04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': '0:29.810'
+    'start': ''
   },
-  '804009FA3CEB04': {
+  '804AACE2C56004': {
     'soundID': 'erik-spiekermann-onl',
-    'start': '12:48.747'
+    'start': ''
   },
-  '804009FA3CEC04': {
+  '804AACE2C58C04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': '24:19.164'
+    'start': ''
+  },
+  '804AACE2C55F04': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C56904': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C58B04': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C51D04': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C52704': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C54904': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '804AACE2C51C04': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
+  },
+  '814AACE2C75D04': {
+    'soundID': 'erik-spiekermann-onl',
+    'start': ''
   }
 };
 
