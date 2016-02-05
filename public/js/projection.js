@@ -26,7 +26,34 @@ socket.on('reset', function() {
 
 episodeData = {
   'erik-spiekermann-onl': {
-    color: 'blue'
+    color: '#0024ff'
+  },
+  'anna-haifisch-onl': {
+    color: '#FFEE00'
+  },
+  'frank-berzbach-onl': {
+    color: '#ff6300'
+  },
+  'andreas-muxel-onl': {
+    color: '#1EFF01'
+  },
+  'andrea-nienhaus-onl': {
+    color: '#F1CEC9'
+  },
+  'oliver-reichenstein-onl': {
+    color: '#dddddd'
+  },
+  'julia-kahl-onl': {
+    color: '#00ffff'
+  },
+  'i-like-birds-onl': {
+    color: '#ccff00'
+  },
+  'birgit-bauer-daniela-burger-onl': {
+    color: '#FF1493'
+  },
+  'lars-mueller-onl': {
+    color: '#ff0000'
   }
 };
 
@@ -131,7 +158,7 @@ chapterData = {
   },
   '814AACE2C61904': {
     'soundID': 'frank-berzbach-onl',
-    'start': '18:54.332'
+    'start': '18:555.151'
   },
   '814AACE2C62304': {
     'soundID': 'frank-berzbach-onl',
@@ -153,13 +180,233 @@ chapterData = {
     'soundID': 'frank-berzbach-onl',
     'start': '44:10.328'
   },
-  '814AACE2C66504': {
+  '814AACE2C65B04': {
     'soundID': 'frank-berzbach-onl',
     'start': '51:57.090'
   },
   '814AACE2C63904': {
     'soundID': 'frank-berzbach-onl',
     'start': '53:59.098'
+  },
+  '81492A92261104': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C62904': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C9F804': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C69804': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C9B004': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '814AACE2C92604': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '814AACE2C90304': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C7D304': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C9BB04': {
+    'soundID': 'andreas-muxel-onl',
+    'start': ''
+  },
+  '804AACE2C7DD04': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C70004': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '804AACE2C79A04': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '804AACE2C79004': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C96A04': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C94804': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C90104': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '804AACE2C9F704': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C72404': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C92504': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '814AACE2C74604': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '804AACE2C7D404': {
+    'soundID': 'andrea-nienhaus-onl',
+    'start': ''
+  },
+  '804AACE2C7DE04': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '814AACE2C70104': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '814AACE2C87504': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '8040A3AAA3C904': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C8E604': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C8F004': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C8A304': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C88104': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C75804': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C8AD04': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C77A04': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C74D04': {
+    'soundID': 'oliver-reichenstein-onl',
+    'start': ''
+  },
+  '804AACE2C68D04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C77904': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C75704': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C66B04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C69904': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C68F04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C66C04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C79904': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C78F04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C7BE04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C7BD04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '804AACE2C74E04': {
+    'soundID': 'julia-kahl-onl',
+    'start': ''
+  },
+  '814AACE2C96904': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '814AACE2C93D04': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '814AACE2C93C04': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '814AACE2C94704': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '804AACE2C88004': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '814AACE2C84F04': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '804AACE2C8AC04': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '804AACE2C8A204': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '804AACE2C83F04': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
+  },
+  '804AACE2C86104': {
+    'soundID': 'i-like-birds-onl',
+    'start': ''
   },
   '804AACE2C82804': {
     'soundID': 'lars-mueller-onl',
