@@ -190,223 +190,223 @@ chapterData = {
   },
   '81492A92261104': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '0:30.360'
   },
   '804AACE2C62904': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '3:48.622'
   },
   '804AACE2C9F804': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '15:39.660'
   },
   '804AACE2C69804': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '24:28.213'
   },
   '804AACE2C9B004': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '27:56.050'
   },
   '814AACE2C92604': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '35:55.153'
   },
   '814AACE2C90304': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '39:57.756'
   },
   '804AACE2C7D304': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '45:58.092'
   },
   '804AACE2C9BB04': {
     'soundID': 'andreas-muxel-onl',
-    'start': ''
+    'start': '48:10.276'
   },
   '804AACE2C7DD04': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '0:30.640'
   },
   '814AACE2C70004': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '2:51.382'
   },
   '804AACE2C79A04': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '6:29.198'
   },
   '804AACE2C79004': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '11:57.009'
   },
   '814AACE2C96A04': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '16:26.660'
   },
   '814AACE2C94804': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '25:31.488'
   },
   '814AACE2C90104': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '30:03.586'
   },
   '804AACE2C9F704': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '34:31.906'
   },
   '814AACE2C72404': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '39:27.508'
   },
   '814AACE2C92504': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '44:18.182'
   },
   '814AACE2C74604': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '53:18.912'
   },
   '804AACE2C7D404': {
     'soundID': 'andrea-nienhaus-onl',
-    'start': ''
+    'start': '55:28.091'
   },
   '804AACE2C7DE04': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '0:38.065'
   },
   '814AACE2C70104': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '3:06.284'
   },
   '814AACE2C87504': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '18:33.934'
   },
   '8040A3AAA3C904': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '22:33.586'
   },
   '804AACE2C8E604': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '30:43.928'
   },
   '804AACE2C8F004': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '33:39.656'
   },
   '804AACE2C8A304': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '39:26.815'
   },
   '804AACE2C88104': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '42:24.778'
   },
   '804AACE2C75804': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '45:21.222'
   },
   '804AACE2C8AD04': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '49:20.109'
   },
   '804AACE2C77A04': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '54:20.775'
   },
   '804AACE2C74D04': {
     'soundID': 'oliver-reichenstein-onl',
-    'start': ''
+    'start': '58:03.668'
   },
   '804AACE2C68D04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '0:30.993'
   },
   '804AACE2C77904': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '4:54.417'
   },
   '804AACE2C75704': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '7:26.005'
   },
   '804AACE2C66B04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '9:53.389'
   },
   '804AACE2C69904': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '12:39.026'
   },
   '804AACE2C68F04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '13:58.876'
   },
   '804AACE2C66C04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '24:39.427'
   },
   '804AACE2C79904': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '26:24.216'
   },
   '804AACE2C78F04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '32:23.032'
   },
   '804AACE2C7BE04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '38:51.441'
   },
   '804AACE2C7BD04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '41:17.519'
   },
   '804AACE2C74E04': {
     'soundID': 'julia-kahl-onl',
-    'start': ''
+    'start': '45:52.898'
   },
   '814AACE2C96904': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '0:26.987'
   },
   '814AACE2C93D04': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '1:54.304'
   },
   '814AACE2C93C04': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '5:09.755'
   },
   '814AACE2C94704': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '10:59.273'
   },
   '804AACE2C88004': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '20:17.799'
   },
   '814AACE2C84F04': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '28:30.387'
   },
   '804AACE2C8AC04': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '38:52.760'
   },
   '804AACE2C8A204': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '44:49.803'
   },
   '804AACE2C83F04': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '48:51.444'
   },
   '804AACE2C86104': {
     'soundID': 'i-like-birds-onl',
-    'start': ''
+    'start': '51:30.218'
   },
   '804AACE2C82804': {
     'soundID': 'lars-mueller-onl',
