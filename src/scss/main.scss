@@ -57,6 +57,10 @@ img {
 }
 /* End reset */
 
+// Hide cursor
+* {
+  cursor: none;
+}
 
 html, body {
   font-size: $base-font-size-l;
