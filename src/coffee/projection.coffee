@@ -319,40 +319,40 @@ chapterData =
   # 11 Burger/Bauer (12 Tags)
   '804AACE2C8EF04':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '0:29.604'
   '804AACE2C8C304':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '5:05.506'
   '804AACE2C8E504':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '9:14.525'
   '804AACE2C62804':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '10:07.566'
   '814AACE2C83A04':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '18:07.035'
   '804AACE2C64C04':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '25:23.351'
   '804AACE2C65604':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '31:03.037'
   '814AACE2C80B04':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '37:06.243'
   '814AACE2C83004':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '44:40.985'
   '814AACE2C83904':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '47:33.826'
   '814AACE2C82F04':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '54:41.846'
   '814AACE2C80904':
     'soundID': 'birgit-bauer-daniela-burger-onl'
-    'start': ''
+    'start': '55:29.866'
 
   # 10 Müller (14 Tags)
   '804AACE2C82804':
