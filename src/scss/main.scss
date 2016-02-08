@@ -67,6 +67,7 @@ html, body {
   @include typography;
   @include font-feature-settings("liga");
   height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -84,20 +85,28 @@ body {
 }
 
 // Positioning settings for projection
-$paper-canvas-width: 600px;
-$paper-canvas-height: 500px;
-$paper-canvas-left: 300px;
-$paper-canvas-top: 150px;
+$canvas-background-color: #000;
+$paper-canvas-width: 1280px;
+$paper-canvas-height: 720px;
+$paper-canvas-left: 0;
+$paper-canvas-top: 59px;
 $logo-canvas-width: 250px;
-$logo-canvas-height: 65px;
-$logo-canvas-margin-left: 10px;
+$logo-canvas-height: 200px;
+$logo-canvas-margin-left: -300px;
 $logo-canvas-margin-top: 8px;
 
 #label-and-dot {
   position: absolute;
   z-index: 81; // Above everything
-  top: 500px;
-  left: 400px;
+  top: 575px;
+  left: 365px;
+}
+
+#frame {
+  position: absolute;
+  z-index: 2000;
+  top:0;
+  left: 0;
 }
 
 canvas#logo-canvas {
@@ -126,7 +135,7 @@ canvas#paper-canvas {
 
   .page-episode &, .page-fragment &, .page-table & {
     position: absolute;
-    background: white;
+    background: $canvas-background-color;
   }
 }
 
@@ -172,4 +181,3 @@ header, main, footer {
     }
   }
 }
-

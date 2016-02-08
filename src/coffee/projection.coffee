@@ -72,7 +72,7 @@ chapterData =
     'start': '52:54.138'
   '814AACE2C75D04':
     'soundID': 'erik-spiekermann-onl'
-    'start': 'start': '55:46.320'
+    'start': '55:46.320'
 
   # 2 Haifisch (8 Tags)
   '814AACE2C74704':
@@ -317,6 +317,43 @@ chapterData =
     'start': '51:30.218'
 
   # 11 Burger/Bauer (12 Tags)
+  '804AACE2C8EF04':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '804AACE2C8C304':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '804AACE2C8E504':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '804AACE2C62804':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C83A04':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '804AACE2C64C04':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '804AACE2C65604':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C80B04':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C83004':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C83904':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C82F04':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+  '814AACE2C80904':
+    'soundID': 'birgit-bauer-daniela-burger-onl'
+    'start': ''
+
   # 10 Müller (14 Tags)
   '804AACE2C82804':
     'soundID': 'lars-mueller-onl'
@@ -364,7 +401,7 @@ chapterData =
 
 setupSoundObjects = ->
   soundManager.setup
-    debugMode: false
+    debugMode: true
     onready: ->
       console.log 'ready!'
       # Setup the soundManager objects
@@ -407,6 +444,9 @@ changeAudioVisual = (chapterID) ->
 
 hoursToMs = (string) ->
   # Timecode format: HH:MM:SS.FFF where HH (hours) and FFF (milliseconds) are optional.
+  console.log string
+  string = string + ''
+  console.log 'millis', string
   [string, millis] = string.split(".") # Strip milliseconds if available. We'll add them later.
   a = string.split(':')
   s = 0

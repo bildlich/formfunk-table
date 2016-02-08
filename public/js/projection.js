@@ -100,9 +100,7 @@ chapterData = {
   },
   '814AACE2C75D04': {
     'soundID': 'erik-spiekermann-onl',
-    'start': {
-      'start': '55:46.320'
-    }
+    'start': '55:46.320'
   },
   '814AACE2C74704': {
     'soundID': 'anna-haifisch-onl',
@@ -408,6 +406,54 @@ chapterData = {
     'soundID': 'i-like-birds-onl',
     'start': '51:30.218'
   },
+  '804AACE2C8EF04': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '804AACE2C8C304': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '804AACE2C8E504': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '804AACE2C62804': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C83A04': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '804AACE2C64C04': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '804AACE2C65604': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C80B04': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C83004': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C83904': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C82F04': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
+  '814AACE2C80904': {
+    'soundID': 'birgit-bauer-daniela-burger-onl',
+    'start': ''
+  },
   '804AACE2C82804': {
     'soundID': 'lars-mueller-onl',
     'start': '0:29.414'
@@ -468,7 +514,7 @@ chapterData = {
 
 setupSoundObjects = function() {
   return soundManager.setup({
-    debugMode: false,
+    debugMode: true,
     onready: function() {
       var color, results, soundID, soundObject;
       console.log('ready!');
@@ -538,6 +584,9 @@ changeAudioVisual = function(chapterID) {
 
 hoursToMs = function(string) {
   var a, m, millis, ref, result, s;
+  console.log(string);
+  string = string + '';
+  console.log('millis', string);
   ref = string.split("."), string = ref[0], millis = ref[1];
   a = string.split(':');
   s = 0;
