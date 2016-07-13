@@ -89,7 +89,7 @@ $canvas-background-color: #000;
 $paper-canvas-width: 1280px;
 $paper-canvas-height: 630px;
 $paper-canvas-left: 0;
-$paper-canvas-top: 59px;
+$paper-canvas-top: -70px;
 $logo-canvas-width: 250px;
 $logo-canvas-height: 200px;
 $logo-canvas-margin-left: -300px;
@@ -98,7 +98,7 @@ $logo-canvas-margin-top: 8px;
 #label-and-dot {
   position: absolute;
   z-index: 81; // Above everything
-  top: 552px;
+  top: 400px;
   left: 405px;
 }
 
