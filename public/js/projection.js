@@ -514,7 +514,7 @@ chapterData = {
 
 setupSoundObjects = function() {
   return soundManager.setup({
-    debugMode: true,
+    debugMode: false,
     onready: function() {
       var color, results, soundID, soundObject;
       console.log('ready!');
@@ -532,11 +532,10 @@ setupSoundObjects = function() {
               return f.state.playing = false;
             };
           })(this),
-          onplay: (function(_this) {
-            return function(e) {
-              return f.state.playing = true;
-            };
-          })(this),
+          onplay: function(e) {
+            f.state.playing = true;
+            return this.timeout = setTimeout(f.fadeOutAudio(this.id), 60 * 1000);
+          },
           onresume: (function(_this) {
             return function(e) {
               return f.state.playing = true;
@@ -547,11 +546,12 @@ setupSoundObjects = function() {
               return f.state.playing = false;
             };
           })(this),
-          onstop: (function(_this) {
-            return function() {
-              return f.state.playing = false;
-            };
-          })(this)
+          onstop: function() {
+            f.state.playing = false;
+            if (this.timeout) {
+              return clearTimeout(this.timeout);
+            }
+          }
         }));
       }
       return results;
@@ -584,9 +584,7 @@ changeAudioVisual = function(chapterID) {
 
 hoursToMs = function(string) {
   var a, m, millis, ref, result, s;
-  console.log(string);
   string = string + '';
-  console.log('millis', string);
   ref = string.split("."), string = ref[0], millis = ref[1];
   a = string.split(':');
   s = 0;
@@ -2061,6 +2059,14 @@ F = (function() {
 
   F.prototype.showSubscribeOptions = function() {
     return $('.subscribe-options').removeClass('is-hidden');
+  };
+
+  F.prototype.fadeOutAudio = function(soundID) {
+    console.log('Fading out Audio');
+    return soundManager.fadeTo(soundID, 1000, 0, function() {
+      soundManager.stopAll();
+      return soundManager.getSoundById(soundID).setVolume(100);
+    });
   };
 
   F.prototype.hoursToMs = function(string) {

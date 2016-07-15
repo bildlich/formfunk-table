@@ -401,7 +401,7 @@ chapterData =
 
 setupSoundObjects = ->
   soundManager.setup
-    debugMode: true
+    debugMode: false
     onready: ->
       console.log 'ready!'
       # Setup the soundManager objects
@@ -415,14 +415,19 @@ setupSoundObjects = ->
           volume: 100
           onfinish: (e) =>
             f.state.playing = false
-          onplay: (e) =>
+          onplay: (e) ->
             f.state.playing = true
+             # For exhibition: After 5 minutes, fade out audio
+             # otherwise, it runs until the end of the file.
+            this.timeout = setTimeout(f.fadeOutAudio(this.id), 60*1000)
           onresume: (e) =>
             f.state.playing = true
           onpause: =>
             f.state.playing = false
-          onstop: =>
+          onstop: ->
             f.state.playing = false
+            if (this.timeout)
+              clearTimeout(this.timeout)
 
 setupSoundObjects()
 
@@ -444,9 +449,7 @@ changeAudioVisual = (chapterID) ->
 
 hoursToMs = (string) ->
   # Timecode format: HH:MM:SS.FFF where HH (hours) and FFF (milliseconds) are optional.
-  console.log string
   string = string + ''
-  console.log 'millis', string
   [string, millis] = string.split(".") # Strip milliseconds if available. We'll add them later.
   a = string.split(':')
   s = 0
@@ -1542,6 +1545,13 @@ class F
 
   showSubscribeOptions: ->
     $('.subscribe-options').removeClass 'is-hidden'
+
+  fadeOutAudio: (soundID) ->
+    console.log('Fading out Audio')
+    soundManager.fadeTo(soundID, 1000, 0, ->
+      soundManager.stopAll()
+      soundManager.getSoundById(soundID).setVolume(100)
+    )
 
   hoursToMs: (string) ->
     # Timecode format: HH:MM:SS.FFF where HH (hours) and FFF (milliseconds) are optional.
